@@ -5,8 +5,6 @@
 //  Created by ANAS MANSURI on 27/06/2021.
 //
 
-
-//jfkdgkjg
 import UIKit
 import GoogleMaps
 
