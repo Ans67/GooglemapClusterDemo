@@ -1,2 +1,2 @@
 # Googlemapclusterdemo
-Google map cluster demo in swift
+Google map marker cluster demo in swift
