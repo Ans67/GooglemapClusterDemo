@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131209FC275DE719007C41D8 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131209FB275DE719007C41D8 /* MapModel.swift */; };
 		136951692688DB4E009710D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136951682688DB4D009710D7 /* AppDelegate.swift */; };
 		1369516B2688DB4E009710D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1369516A2688DB4E009710D7 /* SceneDelegate.swift */; };
 		136951702688DB4E009710D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1369516E2688DB4E009710D7 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131209FB275DE719007C41D8 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		136951652688DB4D009710D7 /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136951682688DB4D009710D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1369516A2688DB4E009710D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				136951A02688DFA8009710D7 /* Networkmanger.swift */,
-				136952372688E736009710D7 /* Model.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -110,6 +111,8 @@
 		136952362688E723009710D7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				136952372688E736009710D7 /* Model.swift */,
+				131209FB275DE719007C41D8 /* MapModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				136952382688E736009710D7 /* Model.swift in Sources */,
 				136951692688DB4E009710D7 /* AppDelegate.swift in Sources */,
 				136951A12688DFA8009710D7 /* Networkmanger.swift in Sources */,
+				131209FC275DE719007C41D8 /* MapModel.swift in Sources */,
 				1369516B2688DB4E009710D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
